@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Technical Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>This is a technical documentation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, veniam fugiat necessitatibus quas veritatis exercitationem possimus ad cum rem maiores reprehenderit voluptatum harum soluta sed architecto. Animi vel eius tenetur.</p>
+        </header>
+        <ul>
+            <li id="link">
+                <a href="#introduction" class="nav-link">Introduction</a>
+            </li>
+            <li id="link">
+                <a href="#java" class="nav-link">Java</a>
+            </li>
+            <li id="link">
+                <a href="#libreria_java" class="nav-link">Libreria Java</a>
+            </li>
+            <li id="link">
+                <a href="#java_calculator" class="nav-link">Java Calculator</a>
+            </li>
+            <li id="link">
+                <a href="#variables" class="nav-link">Variables</a>
+            </li>
+        </ul>
+
+    </nav>
+    <main id="main-doc">
+        <section class="main-section">
+            <header id="introduction">
+                <h1>What is Java</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda vitae, quos pariatur corporis, laboriosam porro ad, beatae earum eaque similique nemo harum tempora quod hic sed. Impedit ex obcaecati veniam.</p>
+            </header>
+
+        </section>
+        <section class="main-section">
+            <header id="java">
+                <h1>Java</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos autem incidunt hic delectus. Reprehenderit, ducimus. Reiciendis necessitatibus maiores modi. Obcaecati quam porro dolores ipsa, tempore beatae necessitatibus explicabo velit doloribus?</p>
+                <code>  public class Nameclass{<br>
+                    <br>
+                        &emsp;&emsp;&emsp;public static void main(String args[]){<br>
+                            <br>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;System.out.print("Hello World");<br>
+                            <br>
+                        &emsp;&emsp;&emsp;}<br>
+                        }<br>
+                </code> 
+                <code>
+                    Hello World
+                </code>
+            </header>
+        </section>
+        <section class="main-section">
+            <header id="libreria_java">
+                <h1>Librerías Java</h1>
+                <p>El uso de librerias hace más facil la realización de tareas porque la funcionalidades ya estan programadas.</p>
+                <code>
+                    Public Class Temp{<br>
+                    &emsp;&emsp;&emsp;Public static void main(String[] args){<br>
+                        <br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;Scanner entrada = new Scanner(System.in);<br>
+                        <br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;System.out.print("Ingrese primer valor");<br>
+                        <br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;Int a = entrada.nextInt(); // entrada.nextLine();<br>
+                    &emsp;&emsp;&emsp;}<br>
+                }
+                </code>
+            </header>
+        </section>
+        <section class="main-section">
+            <header id="java_calculator">
+                <h1>Java Calculator</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa perspiciatis pariatur dicta nesciunt nobis temporibus adipisci eveniet aspernatur accusantium porro nihil, voluptas non eum eius voluptates aliquam dolores atque vero?</p>
+                <code>
+                    import java.util.Scanner;
+                        public class Suma{<br>
+                            &emsp;&emsp;&emsp;public static void main(String args[]){<br>
+                                <br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;Scanner in = new Scanner(System.in);<br>
+                                <br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;String nombre = "";<br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;int numUno = 0, numDos = 0, resultado = 0;<br>
+                                <br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;System.out.println("¿Cúal es tu nombre?");<br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;nombre = in.nextLine();<br>
+                                <br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;System.out.println("Dame el primer valor para tu suma: ");<br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;numUno = in.nextInt();<br>
+                                <br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;System.out.println("Dame el segundo valor para tu suma: ");<br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;numDos = in.nextInt();<br>
+                                <br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;resultado = numUno + numDos;<br>
+                                <br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;System.out.println("Hola " + nombre + " el resultado de tu suma es: " + resultado);<br>
+                            &emsp;&emsp;&emsp;}<br>
+                        }
+                </code>
+                <code>
+                    e.g. <br>&emsp;&emsp;&emsp;Variables de entrada = "Saúl", "5", "41"<br>
+                    &emsp;&emsp;&emsp;"Hola Saúl el resultado de tu suma es: 46"
+                </code>
+            </header>
+        </section>
+        <section class="main-section">
+            <header id="variables">
+                <h1>variable</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa perspiciatis pariatur dicta nesciunt nobis temporibus adipisci eveniet aspernatur accusantium porro nihil, voluptas non eum eius voluptates aliquam dolores atque vero?</p>
+                <code>
+                    <ul>
+                        <li>int "Numero entero 2 41 50"</li>
+                        <li>String "Letras"</li>
+                        <li>Double "Numero reales 0.2, 99.369</li>
+                        <li>public int "Numero entero y variable publica"</li>
+                        <li>private int "Numero entero y variable privada"</li>
+
+                    </ul>
+                </code>
+            </header>
+        </section>
+    </main>
+    
+</body>
+</html>
